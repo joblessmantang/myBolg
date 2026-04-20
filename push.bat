@@ -1,9 +1,19 @@
-E:
-cd E:\blog\blowfish\public
-git config user.name "joblessmantang"
-git config user.email "2792079099@qq.com "
+@echo off
+
+cd /d E:\blog\blowfish
+
+echo ========================
+echo Git add...
 git add .
-git commit -m "更新博客"
-git branch -M main
-git push -u origin main
+
+echo ========================
+echo Git commit...
+git commit -m "update blog"
+
+echo ========================
+echo Git push...
+git push origin main
+
+echo ========================
+echo Done
 pause
